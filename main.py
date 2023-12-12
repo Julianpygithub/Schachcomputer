@@ -100,10 +100,10 @@ def draw_board():
         column = i % 4
         row = i // 4
         if row % 2 == 0:
-            pygame.draw.rect(screen, 'light gray', [
+            pygame.draw.rect(screen, 'light blue', [
                              600 - (column * 200), row * 100, 100, 100])
         else:
-            pygame.draw.rect(screen, 'light gray', [
+            pygame.draw.rect(screen, 'light blue', [
                              700 - (column * 200), row * 100, 100, 100])
         pygame.draw.rect(screen, 'gray', [0, 800, WIDTH, 100])
         pygame.draw.rect(screen, 'gold', [0, 800, WIDTH, 100], 5)
